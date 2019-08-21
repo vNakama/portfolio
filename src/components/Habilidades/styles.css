@@ -1,0 +1,14 @@
+.habilidades {
+    display: flex;
+    flex-direction: column;
+    background-color: #fdd19e;
+}
+
+.corpoH {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo {
+    color: #fefaf7;
+}

@@ -1,0 +1,9 @@
+.blog {
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo {
+    display: flex;
+    justify-content: space-around;
+}

@@ -1,0 +1,45 @@
+.cabeçalho {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f8b683;
+    height: 60px;
+    width: 100%;
+
+    top: 0;
+    position: fixed;
+    z-index: 2;
+}
+
+.nome {
+    display: flex;
+    align-self: center;
+    font-size: 30px;
+    color: #fefaf7;
+}
+
+.ancoras {
+    display: flex;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 1000px) {
+    .cabeçalho {
+        display: flex;
+        background-color: #f8b683;
+        height: 60px;
+        
+        top: 0;
+        position: fixed;
+        z-index: 2;
+    }
+
+    .nome {
+        display: flex;
+        font-size: 30px;
+        color: #fefaf7;
+    }
+
+    .ancoras {
+        display: none;
+    }
+}

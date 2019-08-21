@@ -1,0 +1,29 @@
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    background-color: #fdd19e;
+
+    padding-bottom: 40px;
+}
+
+.corpoP {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 900px) {
+    .portfolio {
+        display: flex;
+        flex-direction: column;
+        background-color: #fdd19e;
+    
+        padding-bottom: 40px;
+    }
+
+    .corpoP {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

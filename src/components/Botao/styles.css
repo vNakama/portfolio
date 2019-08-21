@@ -1,0 +1,10 @@
+.formatoBotao {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-decoration: none;
+
+    padding: 8px;
+
+    border: 3px solid black;
+}

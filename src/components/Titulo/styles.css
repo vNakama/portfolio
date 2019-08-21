@@ -1,0 +1,26 @@
+.titulo {
+    color: rgb(65, 27, 25);
+    font-weight: bolder;
+
+    display: flex;
+    justify-content: center;
+
+    font-size: 40px;
+
+    padding: 30px;
+}
+
+@media screen and (max-width: 900px) {
+    .titulo {
+        color: rgb(65, 27, 25);
+        font-weight: bolder;
+    
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    
+        font-size: 40px;
+    
+        padding: 30px;
+    }
+}

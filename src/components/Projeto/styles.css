@@ -1,0 +1,23 @@
+.projeto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projetoNome {
+    display: flex;
+    font-size: 25px;
+    color: #fefaf7;
+    padding: 20px;
+}
+
+.projetoTamanho {
+    width: 300px;
+    
+}
+
+@media screen and (max-width: 500px) {
+    .projetoTamanho {
+        width: 250px;
+    }
+}

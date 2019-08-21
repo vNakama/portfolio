@@ -1,0 +1,136 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8b683;
+}
+
+.corpoForm {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.formEsquerda {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.formDireita {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.formA {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-items: center;
+}
+
+.campos {
+    display: flex;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.inputs {
+    display: flex;
+    width: 100%;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.inputArea {
+    display: flex;
+    width: 100%;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.teste123 {
+    display: flex;
+    justify-content: center;
+
+    padding: 8px;
+}
+
+.enviar {
+    display: flex;
+    justify-content: center;
+
+    padding-top: 8px;
+}
+
+.semForm {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    text-decoration: none;
+    background: white;
+    cursor: pointer;
+    border: 3px solid black;
+
+    padding: 8px;
+}
+
+.contatoText {
+    font-size: 20px;
+    color: white;
+}
+
+.icone {
+    padding: 20px;
+    width: 50px;
+}
+
+.redesSociais {
+    display: flex;
+    justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+    .contatoText {
+        text-align: center;
+        font-size: 20px;
+        color: white;
+
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .formA {
+        display: flex;
+        flex-direction: column;
+        width: 260px;
+        align-items: center;
+    }
+
+    .inputs {
+        display: flex;
+        width: 250px;
+    
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .inputArea {
+        display: flex;
+        width: 250px;
+    
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+}
+
